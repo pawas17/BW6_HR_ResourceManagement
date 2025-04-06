@@ -9,7 +9,13 @@
   <sca:property xmi:id="_N-AcAA68EfClP_phjuqXiA" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_N-AcAQ68EfClP_phjuqXiA" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_N-AcAg68EfClP_phjuqXiA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_J7-NcBI_EfC9qs7jgTA8pQ" name="/BW6_HR_ResourceManagement/LogFilePath" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Tc5KEBI_EfC9qs7jgTA8pQ" name="/BW6_HR_ResourceManagement/BatchEmpTerminationFilePath" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_OADAEBKxEfCJ0seeQAZAJg" name="/BW6_HR_ResourceManagement/ArchiveFilePath" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:component xmi:id="_N37CIA68EfClP_phjuqXiA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_N37CIQ68EfClP_phjuqXiA" processName="bw6_hr_resourcemanagement.Process"/>
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_N37CIQ68EfClP_phjuqXiA" processName="bw6_hr_resourcemanagement.ResourceManagementMainProcess"/>
+  </sca:component>
+  <sca:component xmi:id="_YuH-QBKvEfCJ0seeQAZAJg" name="ComponentBatchTermination" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_YuH-QRKvEfCJ0seeQAZAJg" processName="bw6_hr_resourcemanagement.BatchEmployeesTermination"/>
   </sca:component>
 </sca:composite>

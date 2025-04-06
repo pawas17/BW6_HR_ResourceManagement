@@ -73,5 +73,29 @@
 			<type>String</type>
 			<isOverride>false</isOverride>
 		</globalVariable>
+		<globalVariable>
+			<name>//BW6_HR_ResourceManagement///BW6_HR_ResourceManagement/LogFilePath</name>
+			<value>D:\TIBCO\Output\bw6_hr_resourcemanagementlog.txt</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>//BW6_HR_ResourceManagement///BW6_HR_ResourceManagement/BatchEmpTerminationFilePath</name>
+			<value>C:\data\batch_emp_termination.csv</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>//BW6_HR_ResourceManagement///BW6_HR_ResourceManagement/ArchiveFilePath</name>
+			<value>C:\data\archive\</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
 	</globalVariables>
 </repository>
