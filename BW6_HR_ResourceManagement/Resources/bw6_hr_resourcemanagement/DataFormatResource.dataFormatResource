@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Employees="http://www.example.org/Employees" xmlns:dataformat="http://ns.tibco.com/bw/palette/dataformat" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_mUBs0RD6EfCPruTLrNIFcQ" name="bw6_hr_resourcemanagement.DataFormatResource" type="dataformat:DataFormat">
+  <imports xmi:id="_oSC4sBD6EfCPruTLrNIFcQ" importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/Employees"/>
+  <jndi:configuration xsi:type="dataformat:DataFormat" xmi:id="_mUBs0hD6EfCPruTLrNIFcQ" formatType="Delimiter separated" colSeparator="," colSeparatorParseRule="Treat all characters as entered as a single column separator string" lineSeparator="New Line" fillCharacter="Space" schemaElementQName="Employees:Employees" fieldOffsetsStr="EmployeeID(0,0)&#xA;EmployeeName(0,0)&#xA;Salary(0,0)&#xA;Action(0,0)">
+    <fieldOffsets xmi:id="_oUE5ABD6EfCPruTLrNIFcQ" name="EmployeeID"/>
+    <fieldOffsets xmi:id="_oUE5ARD6EfCPruTLrNIFcQ" name="EmployeeName"/>
+    <fieldOffsets xmi:id="_oUE5AhD6EfCPruTLrNIFcQ" name="Salary"/>
+    <fieldOffsets xmi:id="_oUE5AxD6EfCPruTLrNIFcQ" name="Action"/>
+  </jndi:configuration>
+</jndi:namedResource>
